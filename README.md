@@ -1,12 +1,6 @@
 # edgetunnel
 这是一个基于 CF Worker 平台的脚本，在原版的基础上修改了显示 VLESS 配置信息转换为订阅内容。使用该脚本，你可以方便地将 VLESS 配置信息使用在线配置转换到 Clash 或 Singbox 等工具中。
 
-- 基础部署视频教程：https://www.youtube.com/watch?v=LeT4jQUh8ok
-- 快速部署视频教程：https://www.youtube.com/watch?v=59THrmJhmAw ***最佳推荐!!!***
-- 进阶使用视频教程：https://www.youtube.com/watch?v=s91zjpw3-P8
-- **从入门到精通**教程：https://www.youtube.com/watch?v=oRYnrp5rQSc ***必看内容!必看内容!必看内容!!!***
-
-Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networks](https://url.cmliussss.com/alice)提供的云服务器维持[CM订阅转换服务](https://sub.fxxk.dedyn.io/)！**
 
 # 免责声明
 
@@ -33,7 +27,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 - 通过提交虚假的节点配置给订阅服务，避免节点配置信息泄露。
 - 另外，您也可以选择自行部署 [WorkerVless2sub 订阅生成服务](https://github.com/cmliu/WorkerVless2sub)，这样既可以利用订阅生成器的便利。
    
-## Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=LeT4jQUh8ok&t=83s)
+## Workers 部署方法 
 1. 部署 CF Worker：
    - 在 CF Worker 控制台中创建一个新的 Worker。
    - 将 [worker.js](https://github.com/cmliu/edgetunnel/blob/main/_worker.js) 的内容粘贴到 Worker 编辑器中。
@@ -61,7 +55,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 </details>
 
-## Pages 上传 部署方法 **最佳推荐!!!** [视频教程](https://www.youtube.com/watch?v=59THrmJhmAw)
+## Pages 上传 部署方法 **最佳推荐!!!** 
 1. 部署 CF Pages：
    - 下载 [main.zip](https://github.com/cmliu/edgetunnel/archive/refs/heads/main.zip) 文件，并点上 Star !!!
    - 在 CF Pages 控制台中选择 `上传资产`后，为你的项目取名后点击 `创建项目`，然后上传你下载好的 [main.zip](https://github.com/cmliu/edgetunnel/archive/refs/heads/main.zip) 文件后点击 `部署站点`。
@@ -99,7 +93,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 </details>
 
-## Pages GitHub 部署方法 [视频教程](https://www.youtube.com/watch?v=LeT4jQUh8ok&t=560s)
+## Pages GitHub 部署方法
 1. 部署 CF Pages：
    - 在 Github 上先 Fork 本项目，并点上 Star !!!
    - 在 CF Pages 控制台中选择 `连接到 Git`后，选中 `edgetunnel`项目后点击 `开始设置`。
